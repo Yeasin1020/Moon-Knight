@@ -70,6 +70,18 @@ const Navbars = () => {
           Blogs
         </a>
       </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+       <Link to="/dashboard">
+	   <a href="#" className="flex items-center">
+          Dashboard
+        </a>
+	   </Link>
+      </Typography>
     </ul>
   );
 	return (
