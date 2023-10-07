@@ -6,6 +6,7 @@ import {
 	Button,
 	IconButton,
   } from "@material-tailwind/react";
+import { Link } from 'react-router-dom';
 
 const Navbars = () => {
 	const [openNav, setOpenNav] = React.useState(false);
@@ -26,7 +27,7 @@ const Navbars = () => {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Home
+         <Link to="/">Home</Link>
         </a>
       </Typography>
       <Typography
@@ -83,7 +84,7 @@ const Navbars = () => {
 		  </Typography>
 		  <div className="hidden lg:block">{navList}</div>
 		  <Button variant="gradient" size="sm" className="hidden lg:inline-block">
-			<span>Buy Now</span>
+			<Link to="/login"><span>LogIn</span></Link>
 		  </Button>
 		  <IconButton
 			variant="text"
@@ -127,7 +128,9 @@ const Navbars = () => {
 		  <div className="container mx-auto">
 			{navList}
 			<Button variant="gradient" size="sm" fullWidth className="mb-2">
-			  <span>Buy Now</span>
+			  <Link to="/login">
+			  <span>LogIn</span>
+			  </Link>
 			</Button>
 		  </div>
 		</MobileNav>
