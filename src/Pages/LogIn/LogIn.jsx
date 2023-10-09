@@ -10,7 +10,7 @@ const LogIn = () => {
             
             <div class=" flex flex-col items-center">
               <h1 class="text-2xl xl:text-3xl font-extrabold">
-                Sign up
+                Log In
               </h1>
               <div class="w-full flex-1 mt-5">
                 <div class="flex flex-col items-center">
@@ -35,7 +35,7 @@ const LogIn = () => {
                         />
                       </svg>
                     </div>
-                    <span class="ml-4">Sign Up with Google</span>
+                    <span class="ml-4">Log In with Google</span>
                   </button>
 
                   <button class="w-full max-w-xs font-bold shadow-sm rounded-lg py-2 bg-indigo-100 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline mt-5">
@@ -47,13 +47,13 @@ const LogIn = () => {
                         />
                       </svg>
                     </div>
-                    <span class="ml-4">Sign Up with GitHub</span>
+                    <span class="ml-4">Log In with GitHub</span>
                   </button>
                 </div>
 
                 <div class="my-5 border-b text-center">
                   <div class="leading-none px-2 inline-block text-sm text-gray-600 tracking-wide font-medium bg-white transform translate-y-1/2">
-                    Or sign up with e-mail
+                    Or Log In with e-mail
                   </div>
                 </div>
 
@@ -81,7 +81,7 @@ const LogIn = () => {
                       <circle cx="8.5" cy="7" r="4" />
                       <path d="M20 8v6M23 11h-6" />
                     </svg>
-                    <span class="ml-3">Sign Up</span>
+                    <span class="ml-3">Log In</span>
                   </button>
                   <p class="mt-6 text-xs text-gray-600 text-center">
                    

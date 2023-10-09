@@ -234,7 +234,6 @@ const Register = () => {
                       />
                     </div>
                   </div>
-                  
                 </div>
                 <div class="flex -mx-3">
                   <div class="w-full px-3 mb-5">
@@ -310,16 +309,16 @@ const Register = () => {
                       REGISTER NOW
                     </button>
                   </div>
-				  <div color="white" className="mt-4 text-center font-normal">
-            Already have an account?
-            <Link
-			to='/login'
-              href="#"
-              className="font-medium text-blue-500 transition-colors hover:text-blue-700"
-            >
-              LogIn
-            </Link>
-          </div>
+                  <div color="white" className="mt-4 text-center font-normal">
+                    Already have an account?
+                    <Link
+                      to="/login"
+                      href="#"
+                      className="font-medium text-blue-500 transition-colors hover:text-blue-700"
+                    >
+                      LogIn
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
